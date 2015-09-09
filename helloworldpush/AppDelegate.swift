@@ -22,9 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         textAction.title = "Reply"
         textAction.authenticationRequired = false
         textAction.destructive = false
-                if #available(iOS 9.0, *) {
-                    textAction.behavior = .TextInput
-                }
+        textAction.behavior = .TextInput
+        
         let declineAction = UIMutableUserNotificationAction()
         declineAction.identifier = "DECLINE_ACTION"
         declineAction.title = "Decline"
