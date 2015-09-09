@@ -9,7 +9,7 @@
         <scene sceneID="aou-V4-d1y">
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="helloworldpush_WatchKit_App" customModuleProvider="target">
-                    <color key="backgroundColor" red="0.60392159219999997" green="0.78039222959999999" blue="0.90588241820000004" alpha="1" colorSpace="deviceRGB"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.9156355383155218" blue="0.53531350687869728" alpha="1" colorSpace="calibratedRGB"/>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
@@ -19,10 +19,10 @@
             <objects>
                 <notificationController id="YCC-NB-fut">
                     <items>
-                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
                     </items>
                     <notificationCategory key="notificationCategory" identifier="CATEGORY_ID" id="JfB-70-Muf"/>
-                    <color key="backgroundColor" red="0.91764712329999998" green="0.40392160420000001" blue="0.1960784495" alpha="1" colorSpace="deviceRGB"/>
+                    <color key="backgroundColor" red="0.99607843139999996" green="0.84547155568749288" blue="0.54639489032665434" alpha="1" colorSpace="calibratedRGB"/>
                     <connections>
                         <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
                     </connections>
